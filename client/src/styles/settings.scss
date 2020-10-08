@@ -1,0 +1,67 @@
+.settings-container {
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.842);
+  width: 75vw;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.settings-container__options {
+  .settings-container_box {
+    background-color: rgba(206, 235, 225, 0.788);
+    padding: 7px;
+    border-radius: 7px;
+    display: grid;
+  }
+
+  .settings-container_btn {
+    width: 100%;
+    padding: 3%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .settings-container_btn:active {
+    background-color: rgba(128, 128, 128, 0.808);
+  }
+}
+
+.settings-container_show-user-data {
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.842);
+  width: 75vw;
+  border-radius: 7px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.settings-user-detail-table {
+  border-collapse: collapse;
+  width: 100%;
+
+  tr {
+    padding: 0 10%;
+    font-weight: bold;
+  }
+
+  td,
+  th {
+    text-align: left;
+    padding: 5px;
+  }
+
+  .settings-user-detail-table__edit {
+    width: 25px;
+    position: absolute;
+    cursor: pointer;
+    right: 26vw;
+  }
+
+  .table-input {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    width: 70%;
+  }
+}

@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aladin&family=Rochester&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+.home-page-lexa-tagline {
+  color: white;
+  font-family: "Berkshire Swash", cursive;
+  text-align: center;
+  animation: backInLeft 0.7s;
+  font-size: 36px;
+  .a2 {
+    display: block;
+    font-size: 23px;
+  }
+}
+
+.store-loading-container {
+  width: 80px;
+  margin: auto;
+  img {
+    width: 100%;
+  }
+}
+
+.pet-section {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  animation: backInRight 0.7s;
+  cursor: pointer;
+  background: url("https://storage.googleapis.com/lexa-component-styles/bruno.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .pet-section__description {
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+    color: brown;
+    display: grid;
+    align-content: space-between;
+
+    h1 {
+      text-align: center;
+      font-family: "Aladin", cursive;
+      font-size: 50px;
+
+      span {
+        display: block;
+        font-size: 35px;
+      }
+    }
+
+    h3 {
+      font-family: "Rochester", cursive;
+      font-size: 35px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  }
+
+  .info-notify {
+    background-color: rgb(172, 248, 110);
+    font-family: "Satisfy", cursive;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border-radius: 0 0 10px 10px;
+    padding: 1%;
+  }
+}
+
+// New On store
+
+.latest-products-on-store {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  div {
+    background-color: rgba(167, 158, 158, 0.63);
+    border-radius: 10px 10px 0 0;
+    font-family: "Cookie", cursive;
+    font-size: 40px;
+    padding: 2%;
+  }
+
+  .new-on-store {
+    display: flex;
+    overflow: auto;
+    height: 330px;
+    background-color: white;
+    img {
+      margin-right: 10px;
+      border-radius: 20px;
+      height: 100%;
+      cursor: pointer;
+    }
+  }
+}

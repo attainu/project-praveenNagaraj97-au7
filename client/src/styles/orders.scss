@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Niconne&family=Marck+Script&display=swap");
+
+.orders-container {
+  h1 {
+    color: white;
+    font-family: "Niconne", cursive;
+    margin: 0;
+    font-weight: 100;
+    font-size: 50px;
+  }
+  display: grid;
+  gap: 15px;
+  .orders__details-box {
+    background-color: rgb(211, 216, 146);
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    .prod-image {
+      width: 105px;
+      margin-right: 10px;
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
+
+    .prod-order-details {
+      p {
+        padding: 0;
+        margin: 0;
+      }
+      .prd-name {
+        font-size: 20px;
+        font-family: "Cookie", cursive;
+      }
+
+      .prd-price,
+      .prd-ordered,
+      .prd-paid,
+      .prd-delivery {
+        font-family: "Marck Script", cursive;
+      }
+
+      .prd-delivery {
+        color: blue;
+      }
+    }
+  }
+}

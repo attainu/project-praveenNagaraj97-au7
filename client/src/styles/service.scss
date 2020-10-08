@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Aladin&family=Charm&display=swap");
+.service-page {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+  .service-opt {
+    width: 355px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.13);
+
+    img {
+      width: 100%;
+      border-radius: 10px 10px 0px 0px;
+    }
+
+    .title {
+      font-size: 25px;
+      padding: 5px;
+      font-family: "Aladin", cursive;
+    }
+    hr {
+      width: 97%;
+    }
+    .related-queries {
+      padding: 5px;
+      cursor: pointer;
+      color: rgb(229, 240, 245);
+      p {
+        margin: 0;
+        padding: 0;
+        font-family: "Charm", cursive;
+      }
+    }
+  }
+
+  .service-page__order-related__query {
+    background-color: rgba(241, 209, 104, 0.574);
+  }
+
+  .service-page__account-related__query {
+    background-color: rgba(127, 127, 218, 0.574);
+  }
+}
+
+@media (max-width: 770px) {
+  .service-page {
+    display: table;
+  }
+}
+
+.service-solutions {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.829);
+  border-radius: 0px 0px 10px 10px;
+  font-family: "Charm", cursive;
+}
+
+.chat-with-us {
+  position: relative;
+  text-align: center;
+  button {
+    width: 98%;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(163, 110, 212, 0.822);
+    cursor: pointer;
+  }
+
+  button:active {
+    box-shadow: 4px 4px 5px grey;
+    background-color: grey;
+  }
+}

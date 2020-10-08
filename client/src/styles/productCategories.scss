@@ -1,0 +1,37 @@
+$product-category-item-bgc: grey;
+$product-category-item-title-color: white;
+
+.product-category-container {
+  text-align: -webkit-center;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.product-category-item {
+  text-align: center;
+  background-color: $product-category-item-bgc;
+
+  display: contents;
+}
+
+.product-category-item__icon {
+  display: block;
+  height: 30px;
+}
+
+.product-category-item__title {
+  color: $product-category-item-title-color;
+}
+
+.product-category-container:active {
+  animation: flash;
+  animation-duration: 0.5s;
+}
+
+.category-loader {
+  margin: auto;
+  height: 50px;
+  img {
+    height: 100%;
+  }
+}

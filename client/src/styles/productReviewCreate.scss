@@ -1,0 +1,20 @@
+.product-review-create-container {
+  padding: 4px 5px;
+  button {
+    background-color: rgba(255, 174, 0, 0.836);
+    padding: 1%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  button:active {
+    box-shadow: 0px 0px 15px white;
+    background-color: grey;
+  }
+
+  .review-form {
+    animation-name: backInLeft;
+    animation-duration: 0.5s;
+  }
+}

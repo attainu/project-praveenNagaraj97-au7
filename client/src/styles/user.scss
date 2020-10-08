@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Tangerine&display=swap");
+
+.form-container {
+  margin-top: 5vh;
+  width: 55vw;
+  margin: auto;
+  background-color: rgba(168, 153, 153, 0.116);
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 4px 20px 120px 27px rgba(255, 255, 255, 0.274);
+
+  .loading-spinner {
+    height: 100px;
+  }
+}
+
+.form-input {
+  padding: 2%;
+}
+
+.form-input__label {
+  display: block;
+  width: 40vw;
+  margin: auto;
+  text-align: left;
+  font-size: 25px;
+  font-family: "Tangerine", cursive;
+  color: white;
+  text-transform: capitalize;
+}
+
+.form-input__field {
+  width: 40vw;
+  margin: auto;
+  height: 4ch;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 7px 9px 11px rgba(255, 255, 255, 0.336);
+  font-size: 20px;
+  font-family: "Itim", cursive;
+}
+
+@media (max-width: 690px) {
+  .form-container {
+    width: 90vw;
+  }
+  .form-input__label,
+  .form-input__field {
+    width: 80vw;
+  }
+}
