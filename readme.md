@@ -49,9 +49,6 @@ This application uses a number of open source projects /packages to work properl
 - [JWT] for secured auth tokens.
 - [Stripe] for Payment gateway
 
-### Installation
-
-Lexa requires [Node.js](https://nodejs.org/) v10+ and [google api credentials](https://console.cloud.google.com/) to run.
 
 ### Design
 
@@ -94,6 +91,11 @@ Lexa requires [Node.js](https://nodejs.org/) v10+ and [google api credentials](h
 - Most of the document based logics are handled in mongodb document middleware.
 - The Api provides different set of data for differnt product category.
 - The Backend server makes used mongoDB discriminator to store differnt set of data for the same model.
+
+
+### Installation
+
+Lexa requires [Node.js](https://nodejs.org/) v10+ and [google api credentials](https://console.cloud.google.com/) to run.
 
 Install the dependencies and devDependencies and start the server.
 
