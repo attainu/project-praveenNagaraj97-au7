@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+.top-header-menu {
+  margin: 4px !important;
+  padding: 6px !important;
+}
+.top-header {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) 2fr 1fr 1fr;
+  align-items: stretch;
+  justify-items: center;
+}
+
+.nav-links {
+  width: 89%;
+  font-family: "Tangerine", cursive !important;
+}
+
+.top-header-mobile {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.top-header-brand__name {
+  font-family: "Tangerine", cursive !important;
+  justify-self: center;
+  align-self: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 701px) {
+  .top-header-mobile-menu {
+    margin: 2px !important;
+    padding: 6px !important;
+  }
+  .top-header-brand__name {
+    color: white;
+    text-align: center;
+  }
+}
+
+@media (max-width: 390px) {
+  i.user {
+    position: relative;
+    right: 7px;
+  }
+}

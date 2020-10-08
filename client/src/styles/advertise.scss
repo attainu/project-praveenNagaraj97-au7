@@ -1,0 +1,26 @@
+// TopLevel
+
+.advertisement-top-level__container {
+  cursor: pointer;
+  img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  p {
+    padding: 2px;
+    text-align: left;
+    position: relative;
+    bottom: 4px;
+    color: rgba(231, 226, 236, 0.705);
+    background-color: rgba(66, 230, 88, 0.733);
+    border-radius: 0 0 10px 10px;
+    font-size: 17px;
+    font-family: cursive;
+    span {
+      float: right;
+      margin-right: 16px;
+    }
+  }
+  animation: backInRight 0.7s;
+}

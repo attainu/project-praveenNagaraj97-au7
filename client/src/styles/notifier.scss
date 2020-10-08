@@ -1,0 +1,42 @@
+.show-success-notify-with__img {
+  display: flex;
+  align-items: center;
+  background-color: rgba(161, 241, 12, 0.932);
+  border-radius: 5px;
+  float: right;
+  position: fixed;
+  right: 1vw;
+  bottom: 3vh;
+  margin: 0 15px;
+  animation: fadeInLeft;
+  animation-duration: 0.5s;
+  padding: 5px;
+}
+
+.show-success-notify__image {
+  margin-right: 1vw;
+  border-radius: 10px;
+}
+
+.show-success__message {
+  color: black;
+  padding: 1%;
+}
+
+.notifier-container {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  float: right;
+  position: fixed;
+  right: 1vw;
+  bottom: 3vh;
+  margin: 0 15px;
+  animation: fadeInLeft;
+  animation-duration: 0.5s;
+  padding: 7px;
+}
+
+.notifier__message {
+  padding: 1%;
+}

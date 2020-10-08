@@ -1,0 +1,10 @@
+export { MobileReviewModel } from "./productMobileReview";
+export { ComputerReviewModel } from "./productComputersReview";
+export { ElectronicsReviewModel } from "./productElectronicsReview";
+export { DevTeamUserModel } from "./devTeamUser";
+export { ManufacturerModel } from "./manufacturerModel";
+export { BeautyReviewModel } from "./productBeautyReview";
+export { FashionReviewModel } from "./productFashionReview";
+export { KitchenReviewModel } from "./productKitchenReview";
+export { PetReviewModel } from "./productPetReview";
+export { FoodReviewModel } from "./productFoodReview";
